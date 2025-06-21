@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+  min-height: 100vh;
+  padding: 60px;
+  padding-left: 20px;
+  background: url('background-tech.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.page-container.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: -40px;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+/* Make form input text white */
+.white-input .MuiInputBase-input {
+  color: white;
+}
+.white-input .MuiInputLabel-root {
+  color: #ddd;
+}
+.white-input .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #ccc;
+}
