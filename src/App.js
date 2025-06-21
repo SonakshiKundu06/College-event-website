@@ -9,7 +9,6 @@ import {
   Box,
   AppBar,
   Toolbar,
-  Paper,
   Stack
 } from "@mui/material";
 import './App.css'; 
